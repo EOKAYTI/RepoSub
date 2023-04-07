@@ -36,7 +36,7 @@ html {
     justify-content: center;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
     color: #E7B45A;
 }
 
@@ -103,10 +103,11 @@ html {
     background-repeat: no-repeat;
 }
 
-.content2 ul li a:hover{
+.content2 ul li a:hover {
     background-color: #E7B45A;
     color: #fff;
 }
+
 .content2 .content2-top {
     text-align: center;
     margin-top: 50px;
@@ -140,6 +141,11 @@ html {
     border-radius: 30px;
     margin-right: 10px;
 
+}
+
+.content2-bottom p:hover {
+    color: #E7B45A;
+    cursor: pointer;
 }
 
 .content2-bottom-left {
@@ -182,6 +188,11 @@ html {
 
 }
 
+.content3 img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 
 /* CONTENT 4 */
 .content4 {
@@ -220,7 +231,7 @@ html {
     width: 20%;
     text-align: center;
     margin-left: 150px;
-    margin-top: 100px;
+
 
 }
 
@@ -231,7 +242,7 @@ html {
 .content5-right {
     width: 60%;
     height: 500px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     position: absolute;
     right: 0;
     top: 0;
@@ -287,6 +298,16 @@ html {
 .text1 h3,
 .text2 h3 {
     margin: 30px 0;
+}
+
+.text1 h3:hover {
+    color: #E7B45A;
+    cursor: pointer;
+}
+
+.text2 h3:hover {
+    color: #E7B45A;
+    cursor: pointer;
 }
 
 /* CONTENT 7 CSS */
@@ -349,10 +370,11 @@ html {
     color: #fff;
 }
 
-.footer-right-bottom{
+.footer-right-bottom {
     display: flex;
     justify-content: space-around;
 }
+
 .bottom-right ul,
 .bottom-left ul {
     display: inline-block;
@@ -363,16 +385,18 @@ html {
     margin-top: 20px;
     list-style-type: none;
 }
+
 .bottom-right a,
 .bottom-left a {
     color: #ccc;
     text-decoration: none;
 }
 
-.footer-right-bottom ul li a:hover{
+.footer-right-bottom ul li a:hover {
     color: #E7B45A;
 }
-span{
+
+span {
     color: #fff;
     font-weight: bold;
 }
