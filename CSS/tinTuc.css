@@ -28,17 +28,24 @@ html {
 
 .nav {
     width: 80%;
-    height: 150px;
-    margin: 0 auto;
+    height: 80px;
+    margin: 10px auto;
     background-color: #000;
     border-radius: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
 }
 
 .nav ul li a:hover {
     color: #E7B45A;
 }
+
+.fa-caret-down i:hover {
+    color: #E7B45A;
+}
+
 
 .nav .nav-left li,
 .nav .nav-right li {
@@ -47,10 +54,44 @@ html {
 
 .nav .nav-left li a,
 .nav .nav-right li a {
-    line-height: 150px;
+    line-height: 80px;
     color: #fff;
     padding-left: 10px;
     text-decoration: none;
+}
+
+/* ICON RIGHT */
+.fa-bag-shopping {
+    position: absolute;
+    right: 40px;
+    top: 31px;
+}
+
+.fa-magnifying-glass {
+    color: #fff;
+    position: absolute;
+    right: 80px;
+    top: 31px;
+}
+
+/* LOGO TEST */
+.logo {
+    width: 190px;
+    height: 190px;
+    background-color: #000;
+    border-radius: 100px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 700px;
+    z-index: 2;
+    top: 10px;
+}
+
+.logo img {
+    position: absolute;
+    right: 26px;
+    top: 25px;
+
 }
 
 .nav .nav-mid {
