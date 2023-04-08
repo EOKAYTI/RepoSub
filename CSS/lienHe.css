@@ -70,33 +70,35 @@ html {
 .content {
     width: 100%;
     height: 1350px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 
 }
 
 /* CONTENT 1 */
 .content1 {
-    width: 90%;
+    width: 80%;
     height: 500px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: 0 auto;
     position: relative;
     margin-top: 50px;
+    margin-right: 130px;
 }
 
 .content1-left {
     width: 50%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 
 
 }
 
 .content1-right {
     width: 50%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     position: absolute;
     top: 0;
     right: 0;
+    margin-right: -60px;
 }
 
 .content1-right table input {
@@ -106,17 +108,26 @@ html {
 
 }
 
+
+.content1-right input:hover{
+    background-color: #fff;
+    border-color: #E7B45A;
+    color: #E7B45A;
+    cursor: pointer;
+
+}
+
 /* CONTENT 2 */
 .content2 {
     width: 90%;
     height: 700px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: 0 auto;
 }
 .content2 .map{
- width: 80%;
+ width: 90%;
  height: 600px;
- margin-left: 150px;
+ margin-left: 105px;
  margin-top: 70px;
 
 
