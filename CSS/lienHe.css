@@ -21,7 +21,8 @@ html {
     height: 50px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 10px auto;
+
 }
 
 /* NAV CSS */
@@ -37,6 +38,12 @@ html {
     position: relative;
     z-index: 1;
 }
+
+.nav-right{
+    margin-right: 50px;
+}
+
+
 
 .nav ul li a:hover {
     color: #E7B45A;

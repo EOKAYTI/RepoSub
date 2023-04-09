@@ -21,7 +21,7 @@ html {
     height: 50px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 /* NAV CSS */
@@ -37,6 +37,11 @@ html {
     position: relative;
     z-index: 1;
 }
+
+.nav-right{
+    margin-right: 50px;
+}
+
 
 .nav ul li a:hover {
     color: #E7B45A;
@@ -119,13 +124,15 @@ html {
 }
 
 /* CONTENT 1 */
-/* CONTENT 1 */
 .content1 {
     width: 100%;
     height: 600px;
     /* border: 1px solid #000; */
     margin: 0 auto;
+}
 
+.content1 img:hover{
+    opacity: 0.5;
 }
 
 .content1-both {
@@ -170,6 +177,10 @@ html {
     width: 100%;
     height: 750px;
     /* border: 1px solid #000; */
+}
+
+.content6 img:hover{
+    opacity: 0.5;
 }
 
 .content6 h1 {

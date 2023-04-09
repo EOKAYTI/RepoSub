@@ -21,7 +21,7 @@ html {
     height: 50px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 /* NAV CSS */
@@ -38,7 +38,11 @@ html {
     z-index: 1;
 }
 
-.nav ul li a:hover {
+.nav-right{
+    margin-right: 50px;
+}
+
+.nav .nav-left ul li:hover a{
     color: #E7B45A;
 }
 
@@ -184,10 +188,9 @@ html {
     height: 68px;
     border-radius: 30px;
     margin-right: 10px;
-
 }
 
-.content2-bottom p:hover {
+.content2-bottomp-left p:hover {
     color: #E7B45A;
     cursor: pointer;
 }
@@ -351,6 +354,11 @@ html {
 
 .text2 h3:hover {
     color: #E7B45A;
+    cursor: pointer;
+}
+
+.content6-main img:hover{
+    opacity: 0.5;
     cursor: pointer;
 }
 
