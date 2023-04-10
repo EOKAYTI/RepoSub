@@ -24,7 +24,6 @@ html {
 }
 
 /* NAV CSS */
-
 .nav {
     width: 80%;
     height: 80px;
@@ -37,31 +36,65 @@ html {
     z-index: 1;
 }
 
-.nav-right{
-    margin-right: 50px;
-}
-
-
-.nav ul li a:hover {
-    color: #E7B45A;
-}
-
-.fa-caret-down i:hover {
-    color: #E7B45A;
-}
-
-
-.nav .nav-left li,
-.nav .nav-right li {
+.nav-left li{
     display: inline-block;
+    line-height: 80px;
+    margin-left: 15px;
+    position: relative;
 }
 
-.nav .nav-left li a,
-.nav .nav-right li a {
-    line-height: 80px;
+.nav-left li a{
     color: #fff;
-    padding-left: 20px;
     text-decoration: none;
+}
+
+.nav-left li:hover a{
+    color: #E7B45A;
+}
+
+.sub-nav{
+    display: none;
+    position: absolute;
+    box-shadow: 0 0 10px rgb(0, 0, 0.3);
+}
+
+.nav-left li:hover .sub-nav{
+    display: block;
+}
+
+.sub-nav li {
+   width: 200px;
+   background-color: #fff;
+   border: 1px solid #000;
+   list-style-type: none;
+   margin-left: 0;
+}
+.sub-nav li a{
+    text-decoration: none;
+    color: #000 !important;
+    margin-left: 10px;
+}
+
+.sub-nav >li >a:hover{
+    color: #E7B45A !important;
+}
+
+.nav-right{
+    margin-right: 40px;
+}
+
+.nav-right li{
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 15px;
+}
+
+.nav-right li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-right li:hover a{
+    color: #E7B45A;
 }
 
 /* ICON RIGHT */
