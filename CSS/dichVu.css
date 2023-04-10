@@ -75,7 +75,7 @@ html {
     margin-left: 10px;
 }
 
-.sub-nav >li >a:hover{
+.sub-nav li a:hover{
     color: #E7B45A !important;
 }
 
