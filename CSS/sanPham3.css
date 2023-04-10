@@ -11,7 +11,7 @@ html {
 
 .main {
     width: 100%;
-    height: 1500px;
+    height: 1800px;
     /* border: 1px solid #000; */
 }
 
@@ -22,6 +22,7 @@ html {
     display: flex;
     justify-content: space-between;
     margin: 10px auto;
+
 }
 
 /* NAV CSS */
@@ -114,6 +115,7 @@ html {
     cursor: pointer;
 }
 
+
 /* LOGO TEST */
 .logo {
     width: 190px;
@@ -131,6 +133,7 @@ html {
     position: absolute;
     right: 26px;
     top: 25px;
+
 }
 
 .nav .nav-mid {
@@ -139,77 +142,75 @@ html {
     margin-right: 10px;
 }
 
-
-/* STAND CSS */
-.stand {
+/* CONTENT 2 */
+.content2 {
     width: 100%;
-    height: 50px;
-    margin-left: 75px;
+    height: 600px;
+    /* border: 1px solid #000; */
+    /* background-image: url('../IMAGE/bg_menutoday.jpg'); */
+    /* background-repeat: no-repeat; */
 }
 
-
-/* CONTENT */
-.content {
-    width: 100%;
-    height: 1350px;
-    /* border: 1px solid #000; */
+.content2 ul li a:hover {
+    background-color: #E7B45A;
+    color: #fff;
 }
 
-/* CONTENT 1 */
-.content1 {
-    width: 80%;
-    height: 500px;
-    /* border: 1px solid #000; */
-    margin: 0 auto;
-    position: relative;
+.content2 .content2-top {
+    text-align: center;
     margin-top: 50px;
-    margin-right: 130px;
 }
 
-.content1-left {
-    width: 50%;
-    /* border: 1px solid #000; */
+.content2 .content2-top li {
+    display: inline-block;
+    margin-top: 50px;
 }
 
-.content1-right {
-    width: 50%;
-    /* border: 1px solid #000; */
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: -60px;
-}
-
-.content1-right table input {
+.content2 .content2-top li a {
+    text-decoration: none;
+    padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 30px;
-    margin-top: 20px;
+    color: #000;
 }
 
+.content2-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
 
-.content1-right input:hover {
-    background-color: #fff;
-    border-color: #E7B45A;
+.content2-bottom img {
+    width: 68px;
+    height: 68px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.content2-bottom p:hover {
     color: #E7B45A;
     cursor: pointer;
 }
 
-/* CONTENT 2 */
-.content2 {
-    width: 90%;
-    height: 700px;
-    /* border: 1px solid #000; */
-    margin: 0 auto;
+.content2-bottom-left {
+    width: 50%;
 }
 
-.content2 .map {
-    width: 90%;
-    height: 600px;
-    margin-left: 105px;
-    margin-top: 70px;
+.content2-bottom-left p {
+    margin-top: 15px;
 }
 
-/* CONTENT 7 CSS copy admin*/
+.content2-bottom-right {
+    width: 50%;
+}
+
+.content2-bottom-right p {
+    margin-top: 15px;
+}
+
+/* CONTENT 7 CSS */
 .content7 {
     width: 100%;
     height: 100px;
@@ -239,7 +240,6 @@ html {
 
 .footer-left {
     width: 50%;
-
 }
 
 .footer-left .map {
@@ -247,7 +247,6 @@ html {
     height: 600px;
     margin-top: 200px;
     margin-left: 300px;
-
 }
 
 .footer-right {
